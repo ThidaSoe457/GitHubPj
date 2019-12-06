@@ -12,5 +12,9 @@ namespace Online.Controllers
         {
             return View();
         }
+        public IActionResult Create()
+        {
+            return View();
+        }
     }
 }
